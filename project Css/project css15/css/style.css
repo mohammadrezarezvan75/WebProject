@@ -1,0 +1,17 @@
+.header {
+        background-color: yellow;
+        width: 100%;
+        background-image: url(./image.jpg);
+        background-size: cover;
+        background-position:0 40%;
+        background-repeat: no-repeat;
+        background-origin:border-box; 
+        /* background-origin:padding-box; 
+        background-origin:content-box;  */
+        background-attachment:fixed;
+        background-clip:content-box;
+        height: 1400px;
+        border: 10px dashed green;
+        box-sizing: border-box;
+        padding: 20px;
+}

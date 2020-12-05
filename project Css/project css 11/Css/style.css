@@ -1,0 +1,34 @@
+li:hover {
+    background-color: darkcyan;
+}
+
+li:hover a {
+    color:white;
+}
+
+
+li::before {
+    content : " before ";
+    color :darkblue;
+}
+
+li::after {
+    content : " after ";
+    color : red;
+}
+
+p {
+    
+    background-color: red;
+
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    padding: 10px;
+
+   border: 10px solid beige;
+    margin :0px;
+    margin-bottom: 15px;
+}

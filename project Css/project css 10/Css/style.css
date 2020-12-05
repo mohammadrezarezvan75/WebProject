@@ -1,0 +1,22 @@
+li:hover {
+    background-color: darkcyan;
+}
+
+li:hover a {
+    color:white;
+}
+
+
+li::before {
+    content : " before ";
+    color : yellow;
+}
+
+li::after {
+    content : " after ";
+    color : red;
+}
+
+p::first-line {
+    font-weight: bold;
+}

@@ -1,0 +1,127 @@
+<html dir="rtl">
+
+<head>
+    <title>My WebSite</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+
+
+
+
+        <nav class="space">
+            <ul>
+
+                <li class="item"><a href="http:\\www.bitnami.com" target="_blank">خانه</a></li>
+                <li><a href="http:\\www.google.com" target="_blank">گالری</a></li>
+                <li><a href="http:\\www.google.com" target="_blank">درباره ما</a></li>
+                <li><a href="http:\\www.google.com" target="_blank">اطلاعات</a></li>
+                <li><a href="http:\\www.google.com" target="_blank">تماس به ما</a></li>
+                <br>
+                <input type="text" placeholder="دنبال چی میگردی">
+                <button id="btn" type="submit" value="submit">جستجو</button>
+
+            </ul>
+        </nav>
+        <article>
+
+            <h1>موضوع اول</h1>
+            <h2>درباره ی تصویر</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit recusandae dolores magnam nemo
+                quaerat,
+                voluptate vitae amet.</p>
+            <img src="./images/flutter-1.png" alt="flutter" height="100" width="320">
+            <br><br>
+
+
+            <h1>موضوع دوم</h1>
+            <h2>درباره ی تصویر</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit recusandae dolores magnam nemo
+                quaerat,
+                voluptate vitae amet.</p>
+            <img src="./images/flutter-1.png" alt="flutter" height="100" width="320">
+            <br><br>
+
+            <h1>موضوع سوم</h1>
+            <div>درباره ی تصویر
+                <p class="border-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit
+                    recusandae dolores magnam nemo
+                    quaerat,
+                    voluptate vitae amet.</p>
+                <img src="./images/flutter-1.png" alt="flutter" height="100" width="320">
+            </div>
+            <br><br>
+
+
+
+            <h1>ویدیو</h1>
+            <h2>درباره ی ویدیو</h2>
+            <video source src="video/video.mp4" width="700" height="120" controls></video>
+            <br>
+            <h1>مشخصات کاربری </h1>
+            <form action=""></form>
+            <label for="name">نام</label>
+            <input type="text" name="title" id="name" onchange="changeinput()=this.value">
+            <p id="Result"></p>
+            <br>
+            <br>
+            <label for="family">نام خانوادگی</label>
+            <input type="data" name="published" id="family" onchange="changeinput()=this.value">
+            <p id="Result"></p>
+            <br>
+            <br>
+            <label for="text">متن</label>
+            <textarea name="body" cols="100" rows="20" id="text" placeholder="لطفا متن را وارد کنید"
+                onchange="changeinput()=this.value"></textarea>
+            <p id="Result"></p>
+            <br>
+            <br>
+            <input type="submit" value="ارسال" onclick="ShowData()">
+            <br>
+            <br>
+            <label>انتخاب کنید</label>
+            <select>
+                <option value="item1">کشور</option>
+                <option value="item2">استان</option>
+                <option value="item3">شهر</option>
+                <option value="item4">محل زندگی</option>
+            </select>
+            <br><br>
+            <label>یک شخص را انتخاب کنید</label>
+
+            <label for="Personone">
+                محمد رضا
+            </label>
+            <input type="radio" name="mohammadreza" id="Personone">
+
+            <label for="Persontwo">
+                رضا
+            </label>
+            <input type="radio" name="reza" id="Persontwo">
+
+            <label for="PersonThree">
+                پویا
+            </label>
+            <input type="radio" name="poya" id="PersonThree">
+
+            <br><br>
+            <label for="Remember">مرا به خاطر بسپار </label>
+            <input type="checkbox" name="chek" id="Remember">
+            <br><br>
+            <input type="submit" value="ورود">
+            <br><br>
+
+        </article>
+    </header>
+
+
+    <footer>
+
+    </footer>
+
+</body>
+<script src="./js/main.js"></script>
+
+</html>

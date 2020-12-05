@@ -1,0 +1,21 @@
+a[href] {
+    color : pink;
+}
+
+a[href="http://example.com"] {
+    color: blue;
+}
+
+
+a[href*="example"] {
+    color :red;
+}
+
+a[href$="org"] {
+    color : yellow;
+    background-color : black;
+}
+
+li[class~="item"] a {
+    color : green;
+}

@@ -1,0 +1,7 @@
+.h{
+    background-color:yellowgreen;
+    width: 100%;
+    background-image: url(./image.jpg);
+    background-size: 200px 150;
+    height:400;
+}

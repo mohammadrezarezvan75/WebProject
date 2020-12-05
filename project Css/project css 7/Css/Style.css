@@ -1,0 +1,15 @@
+/* .color-red.background-yellow{
+    color:red;
+} */
+
+/* #first.bold{
+    color: red;
+} */
+
+/* div.background-yellow{
+    font-weight: bold;
+} */
+
+header div .color-red{
+    color: red;
+}

@@ -1,0 +1,9 @@
+.header {
+    background-color: yellow;
+    width: 100%;
+    background-image: url(./image.jpg);
+    background-size: cover;
+    background-position:0 40%;
+    background-repeat: no-repeat;
+    height: 400px;
+}

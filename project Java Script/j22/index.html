@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <title>j22</title>
+</head>
+
+<body onload="loadbody()">
+
+    <h1 onclick="changetext(this)">click 1</h1>
+    <h1 onclick="changetext(this)">click 2</h1>
+
+
+    <button onclick="this.innerHTML='OOPS'">click me !</button>
+    <br>
+    <br>
+
+    <button onclick="displayDate()"> The time is ? </button>
+    <p id="demo"></p>
+    <br>
+
+    <button id="mybtn"> Mohammad btn </button>
+
+    <br>
+    <br>
+
+    Name is : <input type="text" id="fname" onchange="mychange()">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="click" onmouseover="mover(this)" onmouseout="mout(this)">
+
+        Please hold mouse over box !
+
+    </div>
+
+    <br>
+    <br>
+
+    <div id="click2" onmousedown="mdown(this)" onmouseup="mup(this)">
+
+        Please click mouse over box !
+
+    </div>
+
+</body>
+<script src="./Script/MyScript.js"></script>
+
+</html>

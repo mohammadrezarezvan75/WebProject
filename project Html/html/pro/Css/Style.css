@@ -1,0 +1,24 @@
+
+
+.border{
+    padding: 10px;
+    margin: 0;
+    margin: 10px;
+    border: 20px solid green;
+}
+
+.footer{
+    padding: 10px;
+    margin: 0;
+    margin: 10px;
+    border: 20px solid green;
+}
+
+.color-c.color-r.color-b{
+
+    text-align: left;
+    padding: 50px 20px;
+    margin: 0;
+    margin: 50px 20px;
+
+}

@@ -1,0 +1,58 @@
+#h{
+    border:3px solid red;
+}
+
+h2#font{
+   border: 3px solid red;
+}
+
+.border-style{
+    border:3px solid cadetblue;
+}
+/* 
+a[href="http://www.bitnami.com"]{
+    color: red;;
+}
+
+li[class="item"] a{
+    color: salmon;
+} */
+/* 
+a {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  } */
+
+
+li:hover{
+    color: goldenrod;
+}
+
+li:hover a{
+    color: red;
+} 
+
+.space{
+    border: 3px solid darkred;
+    padding: 10px;
+    margin: 0;
+    margin: 10px 20px;
+}
+
+li::before {
+    content : " before ";
+    color : blue;
+}
+
+li::after {
+    content : " after ";
+    color : red;
+}
+
+p::first-line {
+    font-weight: bold;
+}
