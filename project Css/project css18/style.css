@@ -1,0 +1,17 @@
+.header {
+    /* background-color: yellow; */
+    width: 100%;
+    /* background: url(./image.jpg) red fixed right 100px bottom 200px/cover; */
+    /* background-size: cover; 
+    background-position:0 40%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-attachment: fixed; */
+    /* background: linear-gradient(236deg,#4c17d2 , #53659c 80%); */
+    background: rgba(76, 23, 210, 0.52);
+    border : 10px dashed green;
+    height: 400px;
+    box-sizing: border-box;
+    padding : 20px;
+}

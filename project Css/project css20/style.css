@@ -1,0 +1,7 @@
+.header {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(76, 23, 210, .2), rgba(0, 0, 0, .5) 80%), linear-gradient(236deg, rgba(26, 188, 156, .2), rgba(41, 128, 185, .5) 80%), url(./image.jpg) fixed 0 40%/cover;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+}

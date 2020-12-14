@@ -1,0 +1,17 @@
+.header {
+    width: 50%;
+    background: fixed right 100px bottom 200px/cover;
+    background: url(./image.jpg);
+    height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 50px;
+    color: aliceblue;
+    filter: blur(2px);
+    filter: brightness(1);
+}
+
+.header:hover {
+    filter: blur(5px) brightness(100%) contrast(150%);
+    filter: drop-shadow(10px 10px 9px rgba(0, 0, 0, 0.5));
+}
